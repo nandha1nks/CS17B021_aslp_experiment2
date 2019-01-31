@@ -111,7 +111,7 @@ $L10:
 	lw	$31,452($sp)				#loads $31 with $sp+452
 	lw	$fp,448($sp)				#loads $fp with $sp+448   #dereferencing $fp
 	addiu	$sp,$sp,456				#loads $sp + 448 with $sp
-	j	$31					#loads $31
+	j	$31					#jumps $31
 	nop						#does nothing
 
 	.set	macro
